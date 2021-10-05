@@ -1,0 +1,16 @@
+echo $HOME
+absolute pathname example = /home/kumar
+pwd
+mkdir
+mkdir patch dbs doc
+mkdir pis pis/progs pis/data
+rmdir pis
+/bin/date      =  example of absolute path name command
+
+ls
+ls -x   => multiple columns
+ls -Fx  -> list out which are dir and files
+ls -axF -> show hidden files
+ls -x dir1 dir2  -> list out the directory contents
+ls -R   -> recursive
+
