@@ -1,0 +1,13 @@
+cal
+cal 03 2006
+cal 2003 | more
+date
+who -Hu  -> list out the header
+uname
+uname -r
+uname -n
+tty
+stty
+stty -a    -> all options
+stty sane  -> restore sanity to the terminal
+
