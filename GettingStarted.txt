@@ -1,0 +1,17 @@
+List of Commands:
+
+cal
+who
+ps
+ls
+ls > list
+ls chap*
+ls -l chap*
+cat list
+wc list
+ls | wc
+x=5
+echo $x
+exit
+tty
+echo $$   it will give you the pid of your shell program.. for ex : bash
