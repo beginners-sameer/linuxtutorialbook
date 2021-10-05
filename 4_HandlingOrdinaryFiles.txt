@@ -1,0 +1,57 @@
+cat -n  ->   numbering lines
+cp chap01 unit1
+cp -i
+cp -R
+mv chap01 man01
+more
+ls | more
+you can startup the vi from inside more by entering v.
+1G   -  beginning of file
+G    -  end of file
+!cmd -  executes unix command
+wc
+wc -l
+wc -w
+wc -c
+cmp chap01 chap02
+comm
+diff
+gzip libc.html
+gzip -l libc.html.gz
+
+gzip -d  libc.html.gz
+gunzip libc.html.gz
+
+gzip -r progsdir
+gunzip -r progsdir or gzip -dr progsdir
+
+to view compressed text files:
+gzcat or gzmore or zcat or zmore or gunzip -c
+
+tar:
+-c  create an archive
+-x  extract files from archive
+-t  display files in archive
+-f arch  specify the archive arch
+
+tar -cvf archive.tar libc.html user.ps
+gzip archive.tar
+
+So first gzip and then tar it.
+
+tar -xvf progs.tar
+
+tar -tvf archive.tar  - viewing the archive
+
+tar -cvzf archive.tar.gz libc.html user.ps   compresses also
+tar -xvzf archive.tar.gz                     decompresses also
+tar -xvzf archive.tar.gz user.ps             extracts only one file only
+tar -tvzf archive.tar.gz                     displays list
+
+zip archive.zip libc.html user.ps
+zip -r sumithome.zip
+unzip archive.zip
+unzip -v archive.zip   - view the archive
+
+
+
