@@ -1,0 +1,24 @@
+Commands:
+
+type ls
+type cat
+echo $PATH
+ls -lat
+ls -l -a -t
+wc note ; ls -l note
+( wc note ; ls -l note ) > newlist
+(wc note;ls -l note)>newlist
+man
+man wc
+f or spacebar  -> to forward the page
+b  -> moves back the page
+/clobber  -it will search for the word... you can keep pressing 'n' until you get the word.
+man man
+ctrl + h = delete the character
+ctrl + u = killing the line
+ctrl + s = stop scrolling output on the screen
+ctrl + q = resume scrolling
+ctrl + j or m = alternative to enter key
+
+
+
